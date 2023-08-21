@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Forms </title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <br>
+    <br>
+    <main>
+        <form action="forms">
+            <fieldset>
+                <legend>Your address</legend><br>
+                   <div>
+                        <span class="space" for="first_name">First name</span>
+                        <input type="text" id="first_name">
+                   </div>   
+                    <br>
+                    <div>
+                        <span class="space" for="last_name">Last name</span>  
+                        <input type="text" id="last_name">
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space" for="street">Street</span> 
+                        <input type="text" id="street">
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space" for="city">City</span>  
+                        <input type="text" id="city">
+                    </div>
+                    <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Additional details</legend>
+                    <div>
+                        <span class="space">Biography</span>
+                        <textarea name="Bio" id="biography" cols="20" rows="2"></textarea>   
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space" for="image">Image</span> 
+                        <input type="file"  name="image" id="image">
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space" for="age group">Age group</span>   
+                        <input  type="number" placeholder="0 to 9 years" id="age_group" style="border-radius: 5px; width: 100px;" min="0" max="9" >
+                    </div>
+                    <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Interests</legend>
+                    <div>
+                        <span class="space" for="hobby">Hobbies</span> 
+                        <textarea name="hobby" id="hobby" cols="13" rows="4" readonly>Playing soccer Dancing Gardening Watching Movie</textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space" for="FC">Favourite car?</span>
+                        <select name="car" id="FC" style="border-radius: 5px;">
+                            <option value="VO">Volvo</option>
+                            <option value="ME">Mercedes</option>
+                            <option value="CO">Corrolla</option>
+                            <option value="LE">Lexus</option>
+                            <option value="HO">Honda</option>
+                            <option value="KI">KIA</option>
+                            <option value="CA">Camry</option>
+                            <option value="TO">Toyota</option>
+                            <option value="HY">Hyunda</option>
+                            <option value="LA">Lambogini</option>
+                            <option value="FO">Ford</option>
+                            <option value="BM">BMW</option>
+                            <option value="CA">Cardilac</option>
+                            <option value="JE">Jeep</option>
+                            <option value="CH">Chervolet</option>
+                            <option value="AU">Audi</option>   
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="space">Favourite public transport?</span>
+                        <textarea name="transport" id="" cols="5" rows="4" readonly>Ground &nbsp Train &nbsp Bus Water</textarea>
+                    </div>
+                    <br>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        
